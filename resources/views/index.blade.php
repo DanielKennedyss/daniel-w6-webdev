@@ -20,7 +20,6 @@
             <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
                 <h1 class="display-3 fw-bold mb-4">Capture Your Best Moments in Surabaya</h1>
                 <p class="lead mb-4">Premium photobooth experiences for your events, weddings, and parties across Jawa Timur!</p>
-                {{-- Ganti ke Route Laravel --}}
                 <a href="{{ route('services') }}" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">View Packages</a>
             </div>
         </div>
@@ -30,7 +29,6 @@
             <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
                 <h1 class="display-3 fw-bold mb-4">Unlimited Fun & Instant Prints</h1>
                 <p class="lead mb-4">Bring joy to your guests with our interactive kiosks!</p>
-                {{-- Ganti ke Route Laravel --}}
                 <a href="{{ route('contact') }}" class="btn btn-warning btn-lg rounded-pill shadow text-dark fw-bold">Book Now</a>
             </div>
         </div>
@@ -49,7 +47,7 @@
     <h2 class="mb-4 fw-bold text-dark">Why Choose Us?</h2>
     <div class="row g-4 mt-2">
         
-        {{-- LOOPING DATA DARI CONTROLLER --}}
+    
         @foreach($packages as $packages)
         <div class="col-md-4">
             <div class="p-4 border rounded shadow-sm bg-white h-100 border-top border-warning border-3">

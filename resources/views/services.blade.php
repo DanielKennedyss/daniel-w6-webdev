@@ -19,7 +19,6 @@
 
         <div class="row g-4 justify-content-center">
             
-            {{-- LOOPING DIMULAI DI SINI --}}
             @foreach($packages as $package)
             
             <div class="col-md-6 col-lg-4">
@@ -52,7 +51,7 @@
             </div>
 
             @endforeach
-            {{-- LOOPING BERAKHIR DI SINI --}}
+
 
         </div> </div>
 </main>
